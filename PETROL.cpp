@@ -27,6 +27,7 @@ int main()
 		}
 	}
 	else
+	if(f==2)
 	{
 		if(pol=='p')
 		{
@@ -42,6 +43,10 @@ int main()
 			d=die*93.1;
 			printf("\n%f You want to pay \n Thank You Visit Again :)\n",d);
 		}
+	}
+	else
+	{
+		printf("Invalid input");
 	}
 	return 0;
 }
